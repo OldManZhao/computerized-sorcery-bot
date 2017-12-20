@@ -25,7 +25,7 @@ function postMessage() {
     + "/bow down" + "\n" + "/oprah overlord" + "\n" + "/welcome overlord" + "\n" + "/love yall" + "\n" + "/oligarchy or monarchy"
     + "\n" + "/doggos ftw" + "\n" + "/no cats" + "\n" + "/dropped" + "\n" + "/no thanks" + "\n" + "/yas" + "\n" + "/doggos"
     + "\n" + "/mother" + "\n" + "/attacked" + "\n" + "/headless" + "\n" + "/callsign" + "\n" + "/gello" + "\n" + "/ripi" + "\n"
-    + "/eradicate" + "\n" + "/interest"
+    + "/eradicate" + "\n" + "/interest" + "\n" + "/noone reads"
 
   options = {
     hostname: 'api.groupme.com',
