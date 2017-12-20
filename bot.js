@@ -27,6 +27,7 @@ function respond() {
       botRegeu = /^\/ripi$/;
       botRegev = /^\/eradicate$/;
       botRegew = /^\/interest$/;
+      botRegex = /^\/noone reads$/;
       resp = 0;
 
   if(request.text && botRegex.test(request.text)) {
@@ -73,6 +74,8 @@ function respond() {
     resp = 21;
   } else if(request.text && botRegew.test(request.text)){
     resp = 22;
+  } else if(request.test && botRegex.test(request.text)){
+    resp = 23;
   }
   
   if(resp > 0) {
@@ -133,6 +136,8 @@ function postMessage() {
     botResponse = 'Eradicate all the bots!';
   } else if(resp == 22) {
     botResponse = "Interesting concept, I hadn't thought of that";
+  } else if(resp == 23) {
+    botResponse = "Do you people not read?";
   }
 
   options = {
